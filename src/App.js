@@ -7,9 +7,9 @@ import Booking from './Virtual/Home/Booking';
 import Attraction from './Virtual/Home/Attraction';
 import NavBar from './components/NavBar';  // Import the NavBar component
 
-const isAuthenticated = () => {
-    return !!localStorage.getItem('access_token');
-};
+// const isAuthenticated = () => {
+//     return !!localStorage.getItem('access_token');
+// };
 
 function App() {
     return (
